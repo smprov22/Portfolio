@@ -1,13 +1,11 @@
 <?php 
 	require('email_config.php');
 	
+
 	// sender information
 	$name = trim($_POST['name']);
 	$email = trim($_POST['email']);
 	$message = trim($_POST['message']);
-
-	$to = 'smprovence22@gmail.com';
-	$subject = 'Contact from your website';	
 	$error = "";
 	
 	// check sender information
@@ -25,16 +23,16 @@
 		$error = $invalid_name; // for empty name field
 	}
 
-	// email header
+    // email header
 
 	$headers = "From: ".$name." <".$email.">\r\nReply-To: ".$email."";
 
 	if (!$error){
 		
 		// sending email
-		$send = mail($to,$subject,$message,$headers); 
+		$sent = mail($to_email,$subject,$message,$headers); 
 		
-		if ($send) {
+		if ($sent) {
 				// if message sent successfully
 				echo "SEND"; 
 			} else {
