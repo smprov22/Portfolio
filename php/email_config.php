@@ -2,10 +2,10 @@
 	
 	// $sendmail_from = 'smprovence22@gmail.com';
 	//your email here
-	$to_email = 'smprovence22@gmail.com';
+	// $to_email = 'smprovence22@gmail.com';
 	
 	//subject of email you will receive
-	$subject = 'Contact from your website';	
+	// $subject = 'Contact from your website';	
 	
 	//Error Messages
 	$invalid_name = 'Please enter your name.';
