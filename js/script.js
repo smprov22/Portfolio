@@ -234,25 +234,25 @@ $(document).ready(function () {
          Contact Form
         ------------- */
 
-    $('#contactForm').submit(function () {
+    // $('#contactForm').submit(function () {
         
-        $.ajax({
-            type: "POST",
-            url: "php/contact.php",
-            data: $('#contactForm').serialize(),
-            success: function (msg) {
-                if (msg == 'SEND') {
-                    $('.success').fadeIn();
-                    $('.error').fadeOut();
-                    $('#contactForm')[0].reset();
-                } else {
-                    $('.success').fadeOut();
-                    $('.error').fadeIn().find('h3').text(msg);
-                }
-            }
-        });
-        return false;
-    });
+    //     $.ajax({
+    //         type: "POST",
+    //         url: "php/contact.php",
+    //         data: $('#contactForm').serialize(),
+    //         success: function (msg) {
+    //             if (msg == 'SEND') {
+    //                 $('.success').fadeIn();
+    //                 $('.error').fadeOut();
+    //                 $('#contactForm')[0].reset();
+    //             } else {
+    //                 $('.success').fadeOut();
+    //                 $('.error').fadeIn().find('h3').text(msg);
+    //             }
+    //         }
+    //     });
+    //     return false;
+    // });
 
     /*  -------------------------------
          Google Map ( for contact page )
