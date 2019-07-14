@@ -1,3 +1,8 @@
 https://sprovence-portfolio.herokuapp.com/
 
-This is a portfolio I created to showcase some of my recent work and allow others to contact me directly.  I used a theme from themeforest.net as my template and then customized it to fit my needs. I chose this theme because I liked the way it transitioned in and out of each section.  I feel like it is something I could learn how to do by looking further into this code because I really like the way it is styled.  I mostly adjusted the HTML but changed the CSS in a few spots as well where the given styling didn't fit my current needs.  The contact form isn't working at the moment, but I will get that up and running as soon as possible.  The main showcase in this is the portfolio section, where you can see a thumbnail of my current work and click links to go to the repository for each project or the deployed link for each project.
+![Portfolio Page](/images/screenshot/Portfolio.PNG)
+
+My portfolio to showcase my work as a developer.  The main attraction is the portfolio section of the site where you can see some of the different projects I have worked on in my time as a developer.  Each project has a preview image as well as links to the github and the live site.  
+<br>
+My resume is also available to preview on the site or to download in full.  The about me page gives you a little bit about my background and what I hope to accomplish, and the contact page allows you to reach out to me if you so choose.
+<br>
