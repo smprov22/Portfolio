@@ -1,5 +1,4 @@
 <?php 
-	require('email_config.php');
 	
 
 	// sender information
@@ -8,7 +7,7 @@
 	$message = trim($_POST['message']);
 	$error = "";
 	
-	$email_from = 'smprovence22@gmail.com';
+	$email_from = 'smc21722@gmail.com';
 
 	$email_subject = 'New Contact From Website';
 
