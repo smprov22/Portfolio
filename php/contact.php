@@ -47,7 +47,7 @@
 	if (!$error){
 
 		// sending email
-		$sent = mail($to_email,$subject,$message,$headers); 
+		$sent = mail($to,$subject,$message,$headers); 
 
 		if ($sent) {
 				// if message sent successfully
