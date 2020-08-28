@@ -7,7 +7,7 @@
 	$message = trim($_POST['message']);
 	$error = "";
 	
-	$email_from = 'smc21722@gmail.com';
+	$email_from = 'smc21722@yahoo.com';
 
 	$email_subject = 'New Contact From Website';
 
