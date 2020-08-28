@@ -16,6 +16,10 @@
 						"User Message: $message.\n";
 
 	$to = "smprovence22@gmail.com";
+	
+	$headers = "From: $email_from \r\n";
+
+	$headers = "Reply-To: $email \r\n";
 
 // check sender information
 	$pattern = "^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$^";
@@ -35,11 +39,6 @@
     // email header
 
 	if (!$error){
-
-		$headers = "From: $email_from \r\n";
-
-		$headers = "Reply-To: $email \r\n";
-
 		// header("Location: ../index.html");
 		// sending email
 		$sent = mail($to, $email_subject, $email_body, $headers); 
