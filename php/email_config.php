@@ -1,6 +1,5 @@
 <?php
 	
-	// $sendmail_from = 'smprovence22@gmail.com';
 	//your email here
 	$to_email = 'smprovence22@gmail.com';
 	
