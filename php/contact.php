@@ -1,7 +1,6 @@
 <?php 
 	require('email_config.php');
 
-
 	// sender information
 	$name = trim($_POST['name']);
 	$email = trim($_POST['email']);
