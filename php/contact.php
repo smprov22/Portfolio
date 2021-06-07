@@ -20,6 +20,12 @@
 	// mail($to, $email_subject, $email_body, $headers);
 
 	// header("Location: ../index.html");
+	
+	// sender information
+	$name = trim($_POST['name']);
+	$email = trim($_POST['email']);
+	$message = trim($_POST['message']);
+	$error = "";
 
   // check sender information
 	$pattern = "^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$^";
